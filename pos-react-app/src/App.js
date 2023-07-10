@@ -1,11 +1,12 @@
 
 import './App.css';
-import FoodTypeTile from './components/FoodaTypeTile/FoodTypeTile';
+import FoodTileContainer from './components/FoodTileContainer/FoodTileContainer';
+
 
 function App() {
   return (
     <div className="App">
-      <FoodTypeTile/>
+      <FoodTileContainer />
     </div>
   );
 }
