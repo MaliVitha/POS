@@ -4,6 +4,7 @@ width: 10vw;
 height: 10vw;
 border-radius: 10px;
 position: relative;
+margin: 5rem;
 }
 
 .mainTitle{
@@ -11,7 +12,7 @@ position: relative;
     font-weight: 700;
     color: black;
     font-size: 1.4rem;
-    display: block;
+    display: block;    
 
 }
 .subTitle{
@@ -21,9 +22,16 @@ position: relative;
     color: #4d4d4d;
 }
 .image{
-    width: 30%;
+    width: 20%;
     position: absolute;
     left: 10%;
     top: 10%;
 
+}
+.titleHolder{
+    position: absolute;
+    left: 10%;
+    top: 55%;
+    text-align: left;
+    line-height: 1;
 }
