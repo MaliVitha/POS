@@ -1,0 +1,29 @@
+.outer{
+background-color: #b4fff6;
+width: 10vw; 
+height: 10vw;
+border-radius: 10px;
+position: relative;
+}
+
+.mainTitle{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: black;
+    font-size: 1.4rem;
+    display: block;
+
+}
+.subTitle{
+    font-family: 'Poppins';
+    font-size: 1rem;
+    font-weight: 400 ;
+    color: #4d4d4d;
+}
+.image{
+    width: 30%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+
+}
