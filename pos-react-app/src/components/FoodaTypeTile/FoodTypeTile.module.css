@@ -11,13 +11,15 @@ margin: 5rem;
     font-family: 'Poppins';
     font-weight: 700;
     color: black;
-    font-size: 1.4rem;
+    /* font-size: 1.4rem; */
+    font-size: 1.5vw;
     display: block;    
 
 }
 .subTitle{
     font-family: 'Poppins';
-    font-size: 1rem;
+    /* font-size: 1rem; */
+    font-size: 1.3vw;
     font-weight: 400 ;
     color: #4d4d4d;
 }
