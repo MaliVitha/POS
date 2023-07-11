@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import classes from './FoodTypeTile.module.css';
-import breakfast_image from '../../Assets/breakfast.png';
 
-const FoodTypeTile = () => {
+
+const FoodTypeTile = (props) => {
 
     const [mouseState , setMouseEntered]= useState(false);
    const mouseEnterHandler = () => {
@@ -18,11 +18,11 @@ const FoodTypeTile = () => {
     className = {classes.outer} 
     onMouseEnter={mouseEnterHandler}
     onMouseLeave={mouseLeaveHandler}
-    style={{backgroundColor : !mouseState ? "#B4FFF6" : "#00FFE0"}}
+    style={{backgroundColor : !mouseState ? props.defColor : props.onColor}}
     >
-      <img className={classes.image} src= {breakfast_image} alt=''/>
+      <img className={classes.image} src= {props.source} alt=''/>
      <div className={classes.titleHolder}>
-     <span className={classes.mainTitle} >Breakfast </span>
+     <span className={classes.mainTitle} >{props.heading} </span>
       <span className={classes.subTitle}>13 items</span>
      </div>
       </div>
