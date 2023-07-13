@@ -3,4 +3,6 @@
     flex-direction: row;
     width: 40%;
     flex-wrap: wrap;
+    position: relative;
+
 }

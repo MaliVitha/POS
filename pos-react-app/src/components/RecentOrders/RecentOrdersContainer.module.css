@@ -1,0 +1,17 @@
+.outer{
+    width: 219px;
+    position: relative;
+    background-color: darkslategrey;
+    margin: 1rem;
+    
+    padding: 2rem;
+}
+    
+.h1{
+    font-size:1.2rem ;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: thistle;
+    margin: 0;
+   
+}
