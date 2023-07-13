@@ -1,0 +1,26 @@
+.outer{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* width: 40vw; */
+    justify-content: space-between;
+    padding: 0rem;
+}
+
+.orderId{
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-family: 'Poppins';
+    font-weight: 1000;
+
+}
+
+.state{
+    color: aliceblue;
+    font-size: 0.8rem;
+    font-weight: 400;
+    background-color: darkcyan;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
