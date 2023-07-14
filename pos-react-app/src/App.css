@@ -23,6 +23,11 @@
   
 
 }
+.right{
+  position: absolute;
+  left: 75%;
+  top: 25%;
+}
 
 .App-header {
   background-color: #282c34;

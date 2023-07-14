@@ -1,5 +1,6 @@
 
 import './App.css';
+import CustomerDetails from './components/CustomerDetails/CustomerDetails';
 import FoodTileContainer from './components/FoodTileContainer/FoodTileContainer';
 import ItemTileContainer from './components/ItemTiles/ItemTileContainer';
 import UpperNavBar from './components/NavBar/UpperNavBar';
@@ -15,6 +16,10 @@ function App() {
           <FoodTileContainer />
           <ItemTileContainer/>
         </div>
+        <div className="right">
+        <CustomerDetails />
+        </div>
+        
       
    </div>
   );
