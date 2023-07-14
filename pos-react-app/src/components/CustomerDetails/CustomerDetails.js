@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './CustomerDetails.module.css';
 import Order from './Order';
+import Bill from './Bill';
 
 const CustomerDetails = () => {
   return (
@@ -18,6 +19,7 @@ const CustomerDetails = () => {
       <Order/>
       <Order/>
       <Order/>
+      <Bill/>
       </div>
      
 

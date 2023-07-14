@@ -15,7 +15,7 @@
 }
 .price{
     padding: 0.4rem;
-    background-color:rgb(29, 28, 28);
+    background-color:rgb(19, 18, 18);
     font-size: 1rem;
     color:aliceblue;
     border-radius: 0px 10px 10px 0 ;
@@ -23,7 +23,7 @@
 .foodType{
     width: 16vw;
     padding: 0.4rem;
-    background-color: rgb(29, 28, 28);
+    background-color:rgb(19, 18, 18);
     font-size: 1rem;
     color:aliceblue;
     border-radius: 0 ;
