@@ -1,0 +1,30 @@
+.outer{
+    /* width: 20vw; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.1rem;
+}
+.number{
+    width: 2vw;
+    padding: 0.4rem;
+    background-color: dimgray;
+    font-size: 1rem;
+    color:aliceblue;
+    border-radius: 10px 0px 0px 10px ;
+}
+.price{
+    padding: 0.4rem;
+    background-color:rgb(29, 28, 28);
+    font-size: 1rem;
+    color:aliceblue;
+    border-radius: 0px 10px 10px 0 ;
+}
+.foodType{
+    width: 16vw;
+    padding: 0.4rem;
+    background-color: rgb(29, 28, 28);
+    font-size: 1rem;
+    color:aliceblue;
+    border-radius: 0 ;
+}
