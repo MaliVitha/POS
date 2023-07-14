@@ -2,10 +2,11 @@
     width: 15vw;
     height: 40vh;
     position: relative;
-    background-color: darkslategrey;
+    background-color: rgb(35, 43, 43);
     margin: 1rem;
     margin-bottom: 1rem;
     padding: 2rem;
+    border-radius: 10px;
 }
     
 .h1{

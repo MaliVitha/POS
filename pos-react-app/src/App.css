@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  background-color: #112315;
-  height: 150vh;
+  background-color: #080f0a;
+  height: 140vh;
   width: 100%;
   overflow: hidden;
 }
@@ -16,12 +16,22 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.left{
+  position:absolute;
+  left: 1%;
+  top: 30%;
+}
 .center{
   position:absolute;
   left: 26%;
   top: 30%;
   
 
+}
+.right{
+  position: absolute;
+  left: 70%;
+  top: 21.5%;
 }
 
 .App-header {

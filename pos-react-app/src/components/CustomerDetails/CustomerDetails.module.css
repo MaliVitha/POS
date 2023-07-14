@@ -1,0 +1,27 @@
+.outer{
+    position: relative;
+    padding: 0.3rem;
+}
+.header{
+    display: block;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.titleHolder{
+display: block;
+justify-content: space-between;
+}
+.mainTitle{
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+.subTitle{
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-family: 'Poppins';
+    font-weight: 200;
+}

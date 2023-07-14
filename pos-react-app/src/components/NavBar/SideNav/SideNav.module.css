@@ -1,0 +1,15 @@
+.outer{
+    display: block;
+    margin-left: 4.5rem;
+    margin-bottom: 3rem;
+}
+.content{
+
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 1rem;
+    display: flex;
+
+}
