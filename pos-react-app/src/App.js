@@ -1,6 +1,7 @@
 
 import './App.css';
 import FoodTileContainer from './components/FoodTileContainer/FoodTileContainer';
+import ItemTileContainer from './components/ItemTiles/ItemTileContainer';
 import UpperNavBar from './components/NavBar/UpperNavBar';
 import RecentOrdersContainer from './components/RecentOrders/RecentOrdersContainer';
 
@@ -8,11 +9,14 @@ import RecentOrdersContainer from './components/RecentOrders/RecentOrdersContain
 function App() {
   return (
     <div className="App">
-       <UpperNavBar/>
-       <RecentOrdersContainer/>
-      <FoodTileContainer />
-     
-    </div>
+      <UpperNavBar/>
+      <RecentOrdersContainer />
+        <div className='center'>
+          <FoodTileContainer />
+          <ItemTileContainer/>
+        </div>
+      
+   </div>
   );
 }
 

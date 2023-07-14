@@ -1,6 +1,7 @@
 .outer{
 position: relative;
 width: fit-content;
+top: 0rem;
 }
 
 .image{
