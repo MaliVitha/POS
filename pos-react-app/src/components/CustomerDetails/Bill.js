@@ -22,6 +22,10 @@ const Bill = () => {
         </span>
       </div>
       <hr className={classes.hr}></hr>
+      <div className={classes.titleHolder}>
+        <span className={classes.mainTitle}>Total Payment</span>
+        <span className={classes.subTitle}>Rs.8684.00</span>
+      </div>
     </div>
   )
 }

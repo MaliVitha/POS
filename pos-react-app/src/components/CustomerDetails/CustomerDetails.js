@@ -21,9 +21,7 @@ const CustomerDetails = () => {
       <Order/>
       <Bill/>
       </div>
-     
-
-      
+    
     </div>
   )
 }

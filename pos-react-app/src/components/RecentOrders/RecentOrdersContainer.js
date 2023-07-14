@@ -17,8 +17,6 @@ const RecentOrdersContainer = () => {
       <hr/>
       <RecentOrders/>
       <hr/>
-      <RecentOrders/>
-      <hr/>
     </div>
   )
 }

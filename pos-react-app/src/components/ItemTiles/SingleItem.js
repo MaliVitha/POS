@@ -9,6 +9,11 @@ const SingleItem = () => {
         <span className={classes.mainTitle}>Roast Chicken</span>
         <span className={classes.subTitle}>Rs. 500.00</span>
       </div>
+      <div className={classes.barHolder}>
+        <span className={classes.addBar}> + </span>
+        <span className={classes.number}> 2 </span>
+        <span className={classes.addBar}> - </span>
+      </div>
     </div>
   )
 };

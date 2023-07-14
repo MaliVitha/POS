@@ -1,10 +1,50 @@
 .outer{
+    position: relative;
 background-color: rgb(29, 34, 34);
 margin-top:  1rem;
-border-radius: 5px;
+border-radius: 10px;
 height: 40vh;
 }
 
 .hr{
-    width: 20vw;
+    width: 23vw;
+}
+.heading{
+    font-family: 'Poppins';
+    padding: 1rem 1rem 0rem 1rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color:aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.titleHolder{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 4vh;
+
+}
+.mainTitle{
+
+    font-family: 'Poppins';
+    /* padding: 1rem 1rem 0rem 1rem; */
+    font-weight: 500;
+    font-size: 1.6rem;
+    color:aliceblue;
+    display: block;
+ 
+}
+.subTitle{
+    font-family: 'Poppins';
+    padding: 0.5rem;
+    background-color: azure;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color:rgb(7, 7, 7);
+    display: block;
+    border-radius: 20px;
+    margin-left: 4.5vw;
+    margin-right: 4.5vw;
 }
