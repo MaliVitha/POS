@@ -6,9 +6,10 @@
     padding: 0.1rem;
 }
 .number{
+    font-family: 'Roboto';
     width: 2vw;
     padding: 0.4rem;
-    background-color: dimgray;
+    background-color: #726f6f;
     font-size: 1rem;
     color:aliceblue;
     border-radius: 10px 0px 0px 10px ;
