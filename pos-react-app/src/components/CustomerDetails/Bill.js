@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Bill.module.css';
 
-const Bill = () => {
+const Bill = (props) => {
   return (
     <div className={classes.outer}>
       <div className={classes.heading}>
@@ -24,7 +24,7 @@ const Bill = () => {
       <hr className={classes.hr}></hr>
       <div className={classes.titleHolder}>
         <span className={classes.mainTitle}>Total Payment</span>
-        <span className={classes.subTitle}>Rs.8684.00</span>
+        <button className={classes.subTitle} type={props.type}>Rs.8684.00</button>
       </div>
     </div>
   )

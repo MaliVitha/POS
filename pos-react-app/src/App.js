@@ -1,5 +1,6 @@
 
 import './App.css';
+import Bill from './components/CustomerDetails/Bill';
 import CustomerDetails from './components/CustomerDetails/CustomerDetails';
 import FoodTileContainer from './components/FoodTileContainer/FoodTileContainer';
 import ItemTileContainer from './components/ItemTiles/ItemTileContainer';
@@ -22,6 +23,7 @@ function App() {
         </div>
         <div className="right">
         <CustomerDetails />
+        <Bill/>
         </div>
    
    </div>
