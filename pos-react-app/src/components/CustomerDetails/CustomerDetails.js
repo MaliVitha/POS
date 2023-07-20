@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './CustomerDetails.module.css';
 import Order from './Order';
-import Bill from './Bill';
+
 
 const CustomerDetails = () => {
   return (
@@ -11,7 +11,7 @@ const CustomerDetails = () => {
         <span className={classes.mainTitle}>Cashier id : </span>
         <span className={classes.subTitle}>C008</span>
       </div>
-      <div>
+      <div className={classes.topGradient}>
       <Order/>
       <Order/>
       <Order/>
@@ -19,7 +19,18 @@ const CustomerDetails = () => {
       <Order/>
       <Order/>
       <Order/>
-      <Bill/>
+      <Order/>
+      <Order/>
+      <Order/>
+      <Order/>
+      <Order/>
+      <Order/>
+      <Order/>
+      <Order/>
+      <Order/>
+      <Order/>
+      <Order/>
+      
       </div>
     
     </div>

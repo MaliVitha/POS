@@ -38,13 +38,16 @@ height: 40vh;
 }
 .subTitle{
     font-family: 'Poppins';
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     background-color: azure;
-    font-weight: 500;
-    font-size: 1.3rem;
+    font-weight: bold;
+    font-size: 1rem;
     color:rgb(7, 7, 7);
-    display: block;
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+    /* display: block;
     border-radius: 20px;
     margin-left: 4.5vw;
-    margin-right: 4.5vw;
+    margin-right: 4.5vw; */
 }
